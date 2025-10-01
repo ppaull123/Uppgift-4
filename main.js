@@ -58,7 +58,7 @@ itemSpan.addEventListener("click", function() {
         paragraph.textContent = `You have ${completedTasks} tasks completed`;
     }
 
-
+console.log(listArray)
 });
 
 deleteBtn.addEventListener("click", function () {
@@ -73,6 +73,7 @@ deleteBtn.addEventListener("click", function () {
     if (index > -1) {
         listArray.splice(index, 1);
     }
+    console.log(listArray)
 })
 
 };
